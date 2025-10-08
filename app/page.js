@@ -177,7 +177,7 @@ export default function Home() {
       title: "ETail",
       description:
         "A full-stack e-commerce website with product management, user authentication, and order tracking.",
-      image: "/etail1.jpg",
+      image: "./etail1.jpg",
       technologies: ["MongoDB", "Express", "React", "Node.js"],
       github: "https://github.com/AnuragKapoor19/Etail",
       live: "https://etail-frontend.onrender.com",
@@ -187,7 +187,7 @@ export default function Home() {
       title: "Blogify",
       description:
         "A full-stack blogging platform built with Next.js, featuring authentication, CRUD posts, and Context API for state management.",
-      image: "/blog1.jpg",
+      image: "./blog1.jpg",
       technologies: ["Next.js", "Bootstrap", "Context API", "MongoDB"],
       github: "https://github.com/AnuragKapoor19/Blogify",
       live: null,
@@ -197,7 +197,7 @@ export default function Home() {
       title: "QuizWhiz",
       description:
         "A trivia quiz application with categorized questions, difficulty levels, and MySQL database integration.",
-      image: "/quiz1.jpg",
+      image: "./quiz1.jpg",
       technologies: ["MongoDB", "Express", "React", "Node.js", "MySQL"],
       github: "https://github.com/AnuragKapoor19/quizwhiz",
       live: "https://quizwhiz-frontend.onrender.com",
@@ -217,7 +217,7 @@ export default function Home() {
       title: "Real-time Chat App",
       description:
         "A chat application with real-time messaging, user authentication, and MongoDB for message storage.",
-      image: "/chat1.jpeg",
+      image: "./chat1.jpeg",
       technologies: ["MongoDB", "Express", "React", "Node.js", "Socket.io"],
       github: "https://github.com/AnuragKapoor19/VGossip",
       live: null,
@@ -227,7 +227,7 @@ export default function Home() {
       title: "Food Ordering Website",
       description:
         "A MERN-based food ordering platform with menu browsing, cart management, and order tracking.",
-      image: "/food5.jpg",
+      image: "./food5.jpg",
       technologies: ["MongoDB", "Express", "React", "Node.js"],
       github: "https://github.com/AnuragKapoor19/Foodies",
       live: null,
@@ -237,7 +237,7 @@ export default function Home() {
       title: "Real-time News App",
       description:
         "A MERN stack news application that fetches and displays real-time news updates from external APIs.",
-      image: "/news1.jpg",
+      image: "./news1.jpg",
       technologies: ["MongoDB", "Express", "React", "Node.js", "News API"],
       github: "https://github.com/AnuragKapoor19/NewTidings",
       live: "https://anuragkapoor19.github.io/NewTidings",
@@ -500,7 +500,7 @@ export default function Home() {
               >
                 Get In Touch
               </Button>
-              <Link href="/MyResume.pdf" download>
+              <Link href="./MyResume.pdf" download>
                 <Button
                   variant="outline"
                   size="lg"
@@ -689,7 +689,7 @@ export default function Home() {
                 >
                   <div className="relative overflow-hidden bg-[#071024]">
                     <Image
-                      src={project.image || "/placeholder.svg"}
+                      src={project.image || "./placeholder.svg"}
                       alt={project.title}
                       width={500}
                       height={300}
